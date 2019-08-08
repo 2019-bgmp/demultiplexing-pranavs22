@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --account=bgmp
+#SBATCH --job-name=Part1
+#SBATCH --partition=bgmp
+#SBATCH --output=slurm-%j-%x.out
+#SBATCH --time=0-10:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=4
+
+conda deactivate
+conda deactivate
+conda deactivate
+conda deactivate
+conda activate bgmp_py3
+
+# r1="/projects/bgmp/shared/2017_sequencing/1294_S1_L008_R1_001.fastq.gz"
+/usr/bin/time -v python de_multiplexing.py
+conda deactivate
