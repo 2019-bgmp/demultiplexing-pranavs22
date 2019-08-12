@@ -1,0 +1,3 @@
+zcat grep 1294_S1_L008_R3_001.fastq.gz -v "@"| grep -v "+"| grep -v "J"  |grep -Ec "N"
+
+zcat grep 1294_S1_L008_R2_001.fastq.gz -v "@"| grep -v "+"| grep -v "J"  |grep -Ec "N"
