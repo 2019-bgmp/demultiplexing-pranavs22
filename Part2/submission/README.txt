@@ -94,3 +94,5 @@ Solution:
 I copied contents from talapas terminal (fortunately, I had cat-ed slurm output before it went down) into a new text file. 
 All files can be verified later on, when Talapas is up.
 The output from current script is obtained from slurm script-"slurm-10409377-clean.out"
+
+Inshort- Although above issues occurred, all data was already generated from clean3.py, the only main issue was copying files from Talapas, which was solved by copying content from Talapas terminal.
