@@ -56,6 +56,13 @@ Output :
 2)Numbers and Percentages of read counts belonging to each barcode.
 3) An image file.  
 
+Cutoff-30
+Reason: After observing histograms from Part-1, 
+we see all read files (except Read 3) have quality score atleast above 30. To exclude reads below 30 from Reaad-3, a quality score of 30 was chosen.
+Parameters used to run this script-
+R1,R2,R3,R4,index_list,cutoff,output directory.
+All of the file paths were symlinked.
+
 ** END **
 
 
