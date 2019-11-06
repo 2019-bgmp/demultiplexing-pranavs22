@@ -1,6 +1,5 @@
 The script: clean3.py
 Description:
-
 The script contains total 9 Functions:
 Function:1 get_args
 	Gives user option to input 4 gzipped fastq files.
@@ -65,6 +64,14 @@ All of the file paths were symlinked.
 
 ** END **
 
+2) Check Points:
+
+1) Utilize appropriate functions --> Done
+2) Sufficiently comment your code/use docstrings --> Done
+3) Use unit tests on functions/entire algorithm to ensure it works properly----> Done Test files in folder named 'test_files'
+4) Create a useful report for the end user of your code
+Use argparse to "generalize" your code
+Follow the specifications laid out in Demultiplexing, part 1 for the code 
 
 Note:
 Issues while submitting Work:
@@ -76,7 +83,7 @@ Error:
 bash: /home/pranavs/.bashrc: Stale file handle
 scp: /projects/bgmp/pranavs/DE_Multiplexing/outfiles/test_scripts/slurm-10409377-clean.out: Stale file handle"""
 
-Soution:
+Solution:
 
 I copied contents from Terminal (fortunately, I had cat-ed slurm output before it went down) into a new text file. 
 All files can be verified later on when Talapas is up.
