@@ -1,0 +1,59 @@
+Output from Slurm, as-is.
+
+Part1 : Data Processing...
+Total Number of records processed: 363246735
+Number of dual matched pairs: 304498292
+Number of index hopped pairs: 10432778
+Number of undetermined read pairs: 48315665
+Percentage of dual matched: 83.82684898736943
+Percentage of index hopped read pairs: 2.8720913348333332
+Percentage of undetermined reads: 13.301059677797241
+Information about indexes and number of reads for each index
+Index    Number of reads         Percentage
+TACCGGAT         70600804        19.436046410713093
+CTCTGGAT         31927913        8.789593938125831
+AGAGTCCA         10027053        2.760397282029252
+ATCATGCG         8805256         2.424042710253129
+AACAGCGA         7881110         2.1696299624000748
+TCGACAAG         3591940         0.98884302428761
+TCGAGAGT         10990347        3.0255872774740835
+CGGTAATC         4493402         1.2370109809796364
+GTAGCGTA         7386640         2.033504857242557
+TAGCCATG         10101357        2.780852799681737
+TCTTCGAC         38965134        10.726905501297898
+CTAGCTCA         15912486        4.380627399169878
+TATGGCAC         10369472        2.8546635112907484
+ACGATCAG         7251353         1.9962610262691007
+GATCTTGC         3412165         0.9393518705680864
+AGGATAGC         7657527         2.10807868651593
+TGTTCCGT         14719668        4.052250600408012
+CACTTCAC         3846190         1.0588367710999522
+GCTACTCT         6710005         1.8472306433807313
+CGATCGAT         5249895         1.4452697007723965
+GTCCTAAG         8105785         2.2314818603944233
+GATCAAGG         6087994         1.6759941421083935
+TCGGATTC         4258037         1.1722161797269837
+ATCGTGGT         6146759         1.6921718511798873
+        Command being timed: "python clean3.py -r1 R1 -r2 R2 -r3 R3 -r4 R4 -c 30 -o /projects/bgmp/pranavs/DE_Multiplexing/outfiles/clean/ -i I"
+        User time (seconds): 6027.45
+        System time (seconds): 54.02
+        Percent of CPU this job got: 84%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 1:59:27
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 185960
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 2927083
+        Voluntary context switches: 98455
+        Involuntary context switches: 14594
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0

@@ -1,0 +1,18 @@
+  **Summary**   
+
+1) Percentage of reads from each sample  4
+
+2) Index 	 Percentage
+
+AAA	25.0
+3) Overall amount of Index swapping:50.0
+
+
+ **Other Information** 
+
+1) Total Number of records processed:4
+2) Number of dual matched pairs:1
+3) Number of index hopped pairs:2
+4) Number of undetermined read pairs:1
+5) Percentage of dual matched:25.0
+6) Percentage of undetermined reads:25.0
