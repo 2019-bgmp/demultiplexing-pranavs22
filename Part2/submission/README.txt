@@ -51,10 +51,14 @@ check if indexes are reverse complement of each other, put them in dual-matched 
 3) Print Relevant Info
 
 Output : 
-
-1)Numbers and Percentages of each bin.
-2)Numbers and Percentages of read counts belonging to each barcode.
-3) An image file.  
+1)Total number of records  
+2)Numbers and Percentages of each bin.
+In summary.txt file-
+3) Number of dual matched pairs
+4) Number of index hopped pairs
+5) Number of undetermined read pairs
+6) Percentage of dual matched
+7) Percentage of undetermined reads
 
 Cutoff-30
 Reason: After observing histograms from Part-1, 
