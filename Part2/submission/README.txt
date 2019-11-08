@@ -1,4 +1,4 @@
-The script: clean3.py
+Script name: demultiplex.py
 
 Description:
 The script contains total 9 Functions:
