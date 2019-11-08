@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH --account=bgmp
+#SBATCH --job-name=demult
+#SBATCH --partition=bgmp
+#SBATCH --output=%j-%x.out
+#SBATCH --time=0-07:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=10G
+
+conda deactivate
+conda deactivate
+conda deactivate
+conda deactivate
+conda activate bgmp_py3
+/usr/bin/time -v python demultiplex.py  -r1 R1 -r2 R2 -r3 R3 -r4 R4 -c 30 -o out/ -i I
+conda deactivate
