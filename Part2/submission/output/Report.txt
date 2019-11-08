@@ -1,0 +1,50 @@
+*******Report*******
+
+
+***************
+Input File Summary:
+***************
+
+Total Number of records processed in each file: 363246735 (363  Million)
+Number of Indexes - 24
+Demultiplexing was run on samples named:
+1294_S1_L008_R1_001.fastq.gz
+1294_S1_L008_R2_001.fastq.gz
+1294_S1_L008_R3_001.fastq.gz
+1294_S1_L008_R4_001.fastq.gz
+
+***************
+Output:
+***************
+All output is contained in:
+"slurm-output.txt"
+
+Number of dual matched pairs: 304498292
+Number of index hopped pairs: 10432778
+Number of undetermined read pairs: 48315665
+Percentage of dual matched: 83.82684898736943
+Percentage of index hopped read pairs: 2.8720913348333332
+Percentage of undetermined reads: 13.301059677797241
+***************
+
+The files contain ~83% reads that are dual-matched.
+"TACCGGAT" was the barcode with highest mapping percentage. (19.43%) followed by "TCTTCGAC" (10.72%)
+"GATCTTGC" had least mapping 0.93%
+***************
+
+
+Output Files 
+***************
+All dual-matched barcodes are written in separate files.
+The file names are labelled using barcode names and their reverse complement
+e.g.	'R1_AACAGCGA_TCGCTGTT.fastq'
+
+
+Total Files for dual matched -24 X 2 (For R1 and R2)
+Total Files for hopped -2 (R1 and R2)
+Total Files for unknow barcodes - 2  (R1 and R2)
+
+***************
+END OF REPORT
+***************
+ 
