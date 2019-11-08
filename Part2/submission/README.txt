@@ -73,26 +73,3 @@ All of the file paths were symlinked.
 4) Create a useful report for the end user of your code --> Done
 5) Use argparse to "generalize" your code --> Done
 
-Note:
-The script-clean3.py has provided all the  output required for this assignment, in the slurm files.
-
-However there were some issues while submitting this Work:
-1)Issues with graph-
-Issue : Graph is generated, but the image does not include proper axis and titles. 
-Solution: Made Graphs in excel.
-For Future: To address issue, I created a new script- demultiplex.py.
-I was not able to run the new script, as Talapas was down. 
-
-2)Issue while copying files from talapas : The .srun and .out files
-Talapas system was down. (from point where I started to turn-in 17:51pm till current time 19.02pm). I could not copy .srun and .out files from talapas to my local machine, thus I could not push to Github. Following error occured.
-Error:
-"""Could not chdir to home directory /home/pranavs: Stale file handle
-bash: /home/pranavs/.bashrc: Stale file handle
-scp: /projects/bgmp/pranavs/DE_Multiplexing/outfiles/test_scripts/slurm-10409377-clean.out: Stale file handle"""
-
-Solution:
-I copied contents from talapas terminal (fortunately, I had cat-ed slurm output before it went down) into a new text file. 
-All files can be verified later on, when Talapas is up.
-The output from current script is obtained from slurm script-"slurm-10409377-clean.out"
-
-Inshort- Although above issues occurred, all data was already generated from clean3.py, the only main issue was copying files from Talapas, which was solved by copying content from Talapas terminal.
